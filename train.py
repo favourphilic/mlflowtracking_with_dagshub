@@ -17,8 +17,7 @@ import mlflow
 import mlflow.sklearn
 from mlflow.models import infer_signature
 mlflow.set_tracking_uri(uri="https://dagshub.com/favourphilic/mlflowtracking_with_dagshub.mlflow")
-# Create a new MLflow Experiment
-mlflow.set_experiment("MLflow TrackingQuickstart")
+
 
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
