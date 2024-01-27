@@ -4,7 +4,7 @@
   * https://dagshub.com/<DagsHub-user-name>/<repository-name>.mlflow
 
 
-[Follow]  (https://dagshub.com/docs/integration_guide/mlflow_tracking/index.html) To Use Dagshub as Your Remote Tracking Server 
+[Follow][def] To Use Dagshub as Your Remote Tracking Server 
 
 * Install and import MLflow
 * Set DagsHub as the remote URI
@@ -14,3 +14,6 @@
 
 
 NB: I have decided to use daghub as my remote server here. If you don't set an remote server, a local server will be used.
+
+
+[def]: https://dagshub.com/docs/integration_guide/mlflow_tracking/index.html
