@@ -16,7 +16,7 @@ from sklearn.model_selection import train_test_split
 import mlflow
 import mlflow.sklearn
 from mlflow.models import infer_signature
-mlflow.set_tracking_uri(uri="https://dagshub.com/favourphilic/mlflowtracking_with_dagshub.mlflow")
+#mlflow.set_tracking_uri("https://dagshub.com/favourphilic/mlflowtracking_with_dagshub.mlflow")
 
 
 logging.basicConfig(level=logging.WARN)
