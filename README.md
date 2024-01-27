@@ -11,3 +11,6 @@
 * Set-up your credentials
    * The DagsHub MLflow server has built-in access controls. Only a repository contributor can log experiments (someone who can git push to the repository).
 
+
+
+NB: I have decided to use daghub as my remote server here. If you don't set an remote server, a local server will be used.
